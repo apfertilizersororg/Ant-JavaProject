@@ -18,7 +18,7 @@
 
 	<target name="dist" depends="compile" description="Creating the package and put into to ${dist.dir}">
 
-		<!-- Create the distribution directory -->
+		<!-- Create the distribution director -->
 		<mkdir dir="${dist.dir}" />
 
 		<!-- Put everything in ${build} into the {$project.name}-${DSTAMP}.jar file -->
